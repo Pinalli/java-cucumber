@@ -22,7 +22,7 @@ package br.masmangan.beecrowd.bee1000;
 
 import static org.junit.Assert.assertEquals;
 
-import br.masmangan.beecrowd.bee1000.Greeter;
+//import br.masmangan.beecrowd.bee1000.Greeter;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 

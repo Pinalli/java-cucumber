@@ -20,7 +20,7 @@
  */
 package br.masmangan.beecrowd.bee1002;
 
-import br.masmangan.beecrowd.bee1002.Circle;
+//import br.masmangan.beecrowd.bee1002.Circle;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

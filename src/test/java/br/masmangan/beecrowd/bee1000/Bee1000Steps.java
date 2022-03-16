@@ -25,7 +25,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import br.masmangan.beecrowd.bee1000.Main;
+//import br.masmangan.beecrowd.bee1000.Main;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 

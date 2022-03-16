@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2021, Gherkin By Example and/or its contributors. All rights reserved.
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 #
@@ -22,54 +21,21 @@ Feature: Bee1059 CLI
 
   Narrative:
 
-  In order to avoid silly mistakes
-  As a math novice
-  I want to be told the difference between products of four numbers
+  Write a program that prints all even numbers between 1 and 100, including them if it is the case
 
-  Scenario: Run program with input
+  Scenario: Run program
 
-    Given input is
-"""
-5
-6
-7
-8
-"""
+
     When program runs
-    Then output should be
-"""
-DIFERENCA = -26
-
-"""
-
-  Scenario: Run program with input
-
-    Given input is
-"""
-0
-0
-7
-8
-"""
-    When program runs
-    Then output should be
-"""
-DIFERENCA = -56
-
-"""
-
-  Scenario: Run program with input
-
-    Given input is
-"""
-5
-6
--7
-8
-"""
-    When program runs
-    Then output should be
-"""
-DIFERENCA = 86
-
-"""
+    Then first output should be
+      """
+      2
+      """
+    Then second output should be
+      """
+      4
+      """
+    Then last output should be
+      """
+      100
+      """

@@ -20,7 +20,7 @@
  */
 package br.masmangan.beecrowd.bee1001;
 
-import br.masmangan.beecrowd.bee1001.Calculator;
+//import br.masmangan.beecrowd.bee1001.Calculator;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

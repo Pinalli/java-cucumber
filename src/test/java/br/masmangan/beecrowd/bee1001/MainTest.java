@@ -29,7 +29,7 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 
-import br.masmangan.beecrowd.bee1001.Main;
+//import br.masmangan.beecrowd.bee1001.Main;
 import org.junit.Test;
 
 public class MainTest {
